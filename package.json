@@ -1,0 +1,28 @@
+{
+  "name": "github2npm-repo",
+  "version": "0.0.1",
+  "description": "repo lookup tool from github to npm with semver suppport",
+  "main": "index.js",
+  "bin": "./cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timaschew/github2npm-repo"
+  },
+  "keywords": [
+    "npm",
+    "github",
+    "repo",
+    "semver"
+  ],
+  "author": "Anton Wilhelm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timaschew/github2npm-repo/issues"
+  },
+  "homepage": "https://github.com/timaschew/github2npm-repo",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "npmview": "0.0.4",
+    "semver": "^4.3.6"
+  }
+}
